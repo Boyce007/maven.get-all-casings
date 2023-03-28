@@ -1,5 +1,6 @@
-package com.github.curriculeon;
+package com.github.curriculeon.powerset;
 
+import com.github.curriculeon.PowerSet;
 import org.junit.Assert;
 
 import java.util.*;
