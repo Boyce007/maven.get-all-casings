@@ -1,5 +1,5 @@
 package com.github.curriculeon.powerset.character;
-import com.github.curriculeon.PowerSetTestUtilities;
+import com.github.curriculeon.powerset.PowerSetTestUtilities;
 import org.junit.Test;
 
 

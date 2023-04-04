@@ -1,6 +1,6 @@
 package com.github.curriculeon.powerset.string;
 
-import com.github.curriculeon.PowerSetTestUtilities;
+import com.github.curriculeon.powerset.PowerSetTestUtilities;
 import org.junit.Test;
 
 import java.util.Arrays;
