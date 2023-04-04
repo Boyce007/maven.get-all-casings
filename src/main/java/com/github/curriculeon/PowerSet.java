@@ -33,15 +33,19 @@ public class PowerSet<TypeOfSet> {
         powerSet.add(new HashSet<>());
 
         for (int i = 0; i < originalSet.length; i++) {
-
+            Set<TypeOfSet> currentSet = new HashSet<>();
+            currentSet.add(originalSet[i]);
             for (int j = 1; j < originalSet.length; j++) {
+                currentSet.add(originalSet[j]);
 
             }
+            powerSet.add(currentSet);
+            System.out.println("power set" + powerSet);
 
         }
 
 
-        return null;
+        return powerSet;
     }
 
     /**
